@@ -1,0 +1,22 @@
+on_monthly_pulse = {
+	events = {
+		sos_event.10
+		sos_event.5
+		sos_event.25
+		sos_event.99
+	}
+}
+
+on_yearly_pulse = {
+	events = {
+		sos_event.87
+		sos_event.88
+		sos_event.89
+	}
+}
+
+on_colonized = {
+	events = {
+		necroids.9000
+	}
+}

@@ -1,0 +1,97 @@
+NPop = {
+	REQUIRED_POP_GROWTH					= 20	# Required growth to make a new pop
+	REQUIRED_POP_ASSEMBLY				= 20	# Required assembly to add a pop
+}
+
+NGameplay = {	
+	POLICY_YEARS						= 2 	# Years a set policy can not be changed for
+	SPECIES_POLICY_YEARS				= 2
+	TRUCE_YEARS							= 2 	# Truce last for X years
+	MIN_RIVAL_YEARS						= 2		# Years before you can remove an empire as a rival
+	GOVERNMENT_COOLDOWN_YEARS			= 4		# Cooldown years after changing government before you can change it again
+	MIN_TRADE_DEAL_LENGTH_YEARS			= 2		# Minimum length of a trade deal in years.
+	MAX_TRADE_DEAL_LENGTH_YEARS			= 6		# Maximum length of a trade deal in years.
+	MOVE_CAPITAL_COOLDOWN_YEARS 		= 2  	# Cooldown in years for moving capital.
+
+	SCIENCE_SHIP_SURVEY_SPEED_MULT = 2.5
+
+	SCIENCE_SHIP_ANOMALY_RESEARCH_DAYS = { # equal level is middle (count of items / 2)
+		4 		#9 levels above anomaly
+		4.8 		#8 levels above anomaly
+		6 		#7 levels above anomaly
+		7 		#6 levels above anomaly
+		9 		#5 levels above anomaly
+		11 		#4 levels above anomaly
+		13 		#3 levels above anomaly
+		16 		#2 levels above anomaly
+		20		#1 level above anomaly
+		24		#0 level equal to anomaly
+		36		#1 level below anomaly
+		60		#2 levels below anomaly
+		108		#3 levels below anomaly
+		144		#4 levels below anomaly
+		216 	#5 levels below anomaly
+		288		#6 levels below anomaly
+		432		#7 levels below anomaly
+		576		#8 levels below anomaly
+		1152	#9 levels below anomaly
+	}
+
+	ESPIONAGE_OPERATION_BASE_ROLL_FREQUENCY = 6.0 # Roll frequency in days
+
+	LEADER_EXPERIENCE_REQUIREMENT_BASE_VALUE					= 25.0 # Base value when calculating required experience for next skill level
+
+	MID_GAME_START_DEFAULT = 20
+	MID_GAME_START_MAX = 400
+	MID_GAME_START_MIN = 5
+	END_GAME_START_DEFAULT = 40
+	END_GAME_START_MAX = 800
+	END_GAME_START_MIN = 10
+	START_YEAR_SLIDER_INTERVAL = 5		
+	VICTORY_YEAR_DEFAULT = 60
+	VICTORY_YEAR_MAX = 1050
+	VICTORY_YEAR_MIN = 20
+	VICTORY_YEAR_SLIDER_INTERVAL = 5
+	TECH_COST_DEFAULT = 1.0
+	TECH_COST_MIN = 0.1
+	TECH_COST_MAX = 5.00
+	TECH_COST_SLIDER_INTERVAL = 0.1		
+
+	CONSTRUCTION_SHIP_WORK_SPEED_MULT = 5	# Construction ship construction speed multiplier
+	
+	ARCHAEOLOGICAL_SITE_DISCOVERY_DAYS = 18
+	
+	RESOLUTION_VOTE_TIMER = 288						# number of days a resolution will be on the senate floor before being passed/failed
+	SENATE_RECESS_TIMER = 144						# number of days until the next proposed resolution will be put on the floor after the current vote
+	CHANGE_VOTE_COOLDOWN = 24						# number of days after voting in a resolution before you can change your vote
+
+	CATEGORY_VOTE_COOLDOWN = 504					# time before another resolution in a given category can proposed again
+	TYPE_VOTE_COOLDOWN = 1008						# time before a referendum of a given type can be proposed again
+	VETO_COOLDOWN = 360								# time before a country can enact another veto
+	EMERGENCY_MEASURES_COOLDOWN = 1440				# time before a country can propose another emergency measure
+	
+	LEFT_COMMUNITY_MODIFIER_TIMER = 1440			# how many days the left_community_modifier will affect the leaving country
+	COUNCIL_ELECTION_TIMER = 1440					# time between galactic council elections
+	COUNCIL_ELECTION_SOON_CUTOFF = 36				# when there is less than this many days left until the next council we show an alert
+	
+	MOVE_CAPITAL_COOLDOWN_YEARS 			= 2  	# Cooldown in years for moving capital.
+
+	INTEGRATE_SUBJECT_MIN_DAYS 				= 720 # Amount of days the subject has been a subject before we can integrate it
+	SUBJECT_INTEGRATION_BASE_PROGRESS 		= 25 # Cost per month for subject integration
+	SUBJECT_INTEGRATION_COST_BASE			= 250 # Base cost for integration
+	SUBJECT_INTEGRATION_COST_PER_POP 		= 0.2 # Integration cost per pop
+	SUBJECT_INTEGRATION_COST_PER_PLANET		= 2 # Integration cost per planet
+	
+	INTEL_YEARLY_DECREASE				= 5.0		# Amount of Intel lost every year to reach the target Intel
+	INTEL_YEARLY_INCREASE				= 60.0		# Amount of Intel gained every year to reach the target Intel
+}
+
+NEconomy = {
+		BORROW_DIPLO_WEIGHT_FAVOR_COST		= { 125 }
+}
+
+NAI = {	
+		AI_BUDGETING_START_YEARS = 3
+		AI_BUDGETING_MID_YEARS = 6
+		AI_BUDGETING_LATE_YEARS = 10
+}
